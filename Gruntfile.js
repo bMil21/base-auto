@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 				separator: '\n\n;'
 			},
 			dist: {
-				src: ['js/plugins/*.js'],
+				src: ['js/libs/jquery.js', 'js/plugins/*.js'],
 				dest: 'js/scripts.js'
 			}
 		}, 
