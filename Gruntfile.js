@@ -40,8 +40,8 @@ module.exports = function(grunt) {
 		}, 
 		// Watch
 		watch: {
-			stylus: {
-				files: ['sass/*.scss'], 
+			sass: {
+				files: ['sass/*.scss', 'sass/*/*.scss'], 
 				tasks: ['sass']
 			}, 
 			scripts: {

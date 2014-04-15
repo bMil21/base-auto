@@ -1,0 +1,40 @@
+
+/*--- KEYFRAME ANIMATIONS ---*/
+
+@mixin mykeyframes($keyname) {
+	@-webkit-keyframes $keyname {
+		@content; 
+	}
+	@-moz-keyframes $keyname {
+		@content;
+	}
+	@-ms-keyframes $keyname {
+		@content;
+	}
+	@keyframes $keyname {
+		@content;
+	} 
+}
+@mixin myanim($animname) {
+	-webkit-animation:$animname;
+	-moz-animation:$animname;
+	-o-animation:$animname;
+	animation:$animname;
+}
+
+
+/*--- Animations ---*/
+
+/* 
+@include mykeyframes(fadein) {
+	0% {opacity: 0; right:-50px;}
+	100% {opacity: 1; right: 0;}
+}
+*/
+
+
+/*------------------------------------------------------------------
+	Use Animation
+	- add @include to element
+	- // .INSERT {@include myanim(INSERT-ANIM-NAME 1.5s ease);}
+------------------------------------------------------------------*/

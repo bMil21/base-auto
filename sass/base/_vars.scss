@@ -1,0 +1,23 @@
+/*------- COLORS ------- color1 (000) - color2 (eee) */
+/*------- FONTS ------- font-family:"customFont", Helvetica, Arial, sans-serif; */
+
+
+/*--- COLORS ---*/
+
+$colortxt: #888;
+/* Color */
+$color1: #000;
+/* Color */
+$color2: #eee;
+
+
+/*--- FONTS ---*/
+
+@mixin font1() {
+	font-weight: normal;
+	font-family:"customFont", Helvetica, Arial, sans-serif;
+}
+@mixin font1-bold() {
+	font-weight: normal;
+	font-family:"customFont", Helvetica, Arial, sans-serif;
+}
