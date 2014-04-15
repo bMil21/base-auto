@@ -1,2 +1,2 @@
-base-auto v0.2
+base-auto v1.0
 ==================
