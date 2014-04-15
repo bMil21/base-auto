@@ -12,9 +12,8 @@ $body_class = array(
 	"site_section" => "home",
 	"layout" => ""
 );
-	
-include("includes/header.php");
-?>
+?>	
+<? include("includes/header.php"); ?>
 	<section id="banner">
 		<div class="wrap">
 		</div>
@@ -23,6 +22,6 @@ include("includes/header.php");
 		<div class="wrap clearfix">
 		</div>
 	</section>
-<?php 
+<? 
 include("includes/footer.php");
 ?>
