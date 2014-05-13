@@ -38,6 +38,11 @@ module.exports = function(grunt) {
 				}
 			}
 		}, 
+		// Concurrent
+		concurrent: {
+			first: ['concat'],
+			second: ['uglify']
+		}, 
 		// Watch
 		watch: {
 			sass: {
@@ -46,22 +51,19 @@ module.exports = function(grunt) {
 			}, 
 			scripts: {
 				files: ['js/plugins/*.js'], 
-				tasks: 'concat'
-			}, 
-			uglify: {
-				files: ['js/scripts.js'],
-				tasks: 'uglify'
+				tasks: 'concurrent'
 			}
 		}
 	});
 
-	// Load the plugin that provides the "uglify" task.
+	// Load the plugins
+	grunt.loadNpmTasks('grunt-concurrent');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	// Default task(s).
-	grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch']);
+	grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch', 'concurrent:first', 'concurrent:second']);
 
 };
