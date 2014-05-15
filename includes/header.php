@@ -17,7 +17,7 @@
 	
 	<link rel="icon" href="favicon.ico" />
 	<link rel="stylesheet" href="style.css">
-	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="js/libs/modernizr.js"></script>
 </head>
 <body class="<?php print implode(" ", $body_class); ?>">
 	<!--[if lt IE 7]>
