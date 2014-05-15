@@ -1,6 +1,9 @@
 
 /*!--- IE ---*/
 
+/* IE 9 Remove Chbx/Radio bg, pad */
+.lt-ie10 .radio input, .lt-ie10 .chbx input{display:inline-block; width:auto; background:none; padding:0;}
+
 /* IE 7 Border-Box Fix */
 .lt-ie8 form input{width:80%;}
 .lt-ie8 .inline input{width:55%;}
