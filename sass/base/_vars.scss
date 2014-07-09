@@ -21,3 +21,7 @@ $color2: #eee;
 	font-weight: normal;
 	font-family:"customFont", Helvetica, Arial, sans-serif;
 }
+@mixin font2() {
+	font-weight: normal;
+	font-family:"customFont", Georgia, Times, serif;
+}

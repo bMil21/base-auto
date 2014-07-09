@@ -1,7 +1,7 @@
 
 /*!--- Base ---*/
 
-body{font-size:100%;font-weight:normal;font-family:"customFont", Arial, Helvetica, sans-serif;color:$colortxt;/*font smoothing*/-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;/*hrz scroll fix*/min-width:960px;}
+body{font-size:100%;@include font1(); color:$colortxt;/*font smoothing*/-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;/*hrz scroll fix*/min-width:960px;}
 h1, .h1{font-size:30px;line-height:30px;}
 h2, .h2{font-size:24px;line-height:24px;}
 h3{font-size:18px;}
