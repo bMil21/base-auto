@@ -1,10 +1,12 @@
 
 /*!--- LAYOUT ---*/
 
-.wrap{width:960px;margin:0 auto;}
-.entry-content h2, .entry-content h3{margin:0 0 15px 0;}
-.entry-content p, .entry-content ul{margin:0 0 20px 0;}
+.wrap{max-width:1200px; margin:0 auto; padding:0 30px;}
+.entry-content h2{margin:0 0 20px 0;}
+.entry-content h3{margin:0 0 12px 0;}
+.entry-content p, .entry-content ul, .entry-content ol{margin:0 0 20px 0;}
 .entry-content li{margin:0 0 7px 25px; list-style-type:disc;}
+.entry-content ol li{list-style-type:decimal;}
 .entry-content img{margin:0 15px 5px 0; max-width:100%; height:auto;}
 
 #content-main{}
