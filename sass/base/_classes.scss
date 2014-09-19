@@ -2,6 +2,11 @@
 /*--- SPRITES ---*/
 
 .icons {background:url('images/sprite-icons.png') no-repeat center top;}
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
+	.icons {background-image:url('images/sprite-icons@2x.png'); background-size:50px;}
+}
+
 .xrepeat {background:url('images/sprite-xrepeat.png') repeat-x left top;}
 .yrepeat {background:url('images/sprite-yrepeat.png') repeat-y left top;}
 
