@@ -10,9 +10,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title><?= isset($page_meta["title"]) ? $page_meta["title"] : "SITE NAME" ?></title>
-	<meta name="keywords" content="<?= isset($page_meta["keywords"]) ? $page_meta["keywords"] : "" ?>">
-	<meta name="description" content="<?= isset($page_meta["description"]) ? $page_meta["description"] : "" ?>">
+	<title><?php echo empty($page_meta["title"]) ? "INSERT_TITLE" : $page_meta["title"] . " | INSERT_TITLE" ?></title>
+	<meta name="keywords" content="<?php echo isset($page_meta["keywords"]) ? $page_meta["keywords"] : "" ?>">
+	<meta name="description" content="<?php echo isset($page_meta["description"]) ? $page_meta["description"] : "" ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="http://www.aycmedia.com" />
 	
