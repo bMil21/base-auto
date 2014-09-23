@@ -28,9 +28,9 @@
 		<div class="wrap clearfix">
 			<nav id="nav-main">
 				<ul>
-					<li <?php if ($body_class['site_section'] == 'page1') print 'class="current"';?>><a href="page1.php" title="Page1">Page1</a></li>
-					<li <?php if ($body_class['site_section'] == 'page2') print 'class="current"';?>><a href="page2.php" title="Page2">Page2</a></li>
-					<li <?php if ($body_class['site_section'] == 'page3') print 'class="current"';?>><a href="page3.php" title="Page3">Page3</a></li>
+					<li class="<?php if ($body_class['site_section'] == 'page1') print ' current';?>"><a href="page1.php" title="Page1">Page1</a></li>
+					<li class="<?php if ($body_class['site_section'] == 'page2') print ' current';?>"><a href="page2.php" title="Page2">Page2</a></li>
+					<li class="<?php if ($body_class['site_section'] == 'page3') print ' current';?>"><a href="page3.php" title="Page3">Page3</a></li>
 				</ul>
 			</nav>
 		</div>
