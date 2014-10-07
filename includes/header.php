@@ -16,9 +16,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="http://www.aycmedia.com" />
 	
-	<link rel="icon" href="favicon.ico" />
+	<link rel="icon" href="images/favicon.png" />
+	<link href="images/apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" size="152x152" />
+	<link href="images/apple-touch-icon-120x120.png" rel="apple-touch-icon-precomposed" size="120x120" />
+	<link href="images/apple-touch-icon-76x76.png" rel="apple-touch-icon-precomposed" size="76x76" />
+	<link href="images/apple-touch-icon-60x60.png" rel="apple-touch-icon-precomposed" size="60x60" />
+	
 	<link rel="stylesheet" href="style.css">
 	<script src="js/libs/modernizr.js"></script>
+	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
 </head>
 <body class="<?php print implode(" ", $body_class); ?>">
 	<!--[if lt IE 7]>
