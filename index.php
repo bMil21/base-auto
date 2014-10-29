@@ -3,7 +3,7 @@
 
 // page vars
 $page_meta = array(
-	"title" => "companyName",
+	"title" => "pageName",
 	"keywords" => "",
 	"description" => ""
 );
