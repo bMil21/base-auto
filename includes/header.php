@@ -27,7 +27,7 @@
 	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
 </head>
 <body class="<?php print implode(" ", $body_class); ?>">
-	<!--[if lt IE 7]>
+	<!--[if lte IE 7]>
 		<p class="chromeframe center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 	<header class="header">
