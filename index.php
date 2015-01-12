@@ -14,14 +14,15 @@ $body_class = array(
 );
 ?>	
 <? include("includes/header.php"); ?>
-	<section id="banner">
-		<div class="wrap">
-		</div>
-	</section>
-	<section id="content-main" class="clearfix">
+	<section id="hero">
 		<div class="wrap clearfix">
 		</div>
 	</section>
+	<!-- Main -->
+	<main id="content-main" class="clearfix" role="main">
+		<div class="wrap clearfix">
+		</div>
+	</main>
 <? 
 include("includes/footer.php");
 ?>
