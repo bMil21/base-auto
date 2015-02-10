@@ -132,23 +132,26 @@ $body_class = array(
 
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Columns</span></h2>
 			<div class="col-wrap clearfix">
-				<div class="demo-block col1-2"></div>
-				<div class="demo-block col1-2"></div>
-				<div class="demo-block col1-3"></div>
-				<div class="demo-block col1-3"></div>
-				<div class="demo-block col1-3"></div>
-				<div class="demo-block col1-4"></div>
-				<div class="demo-block col1-4"></div>
-				<div class="demo-block col1-4"></div>
-				<div class="demo-block col1-4"></div>
-				<div class="demo-block col1-3"></div>
-				<div class="demo-block col2-3"></div>
-				<div class="demo-block col3-4"></div>
-				<div class="demo-block col1-4"></div>
+				<div class="col1-2"><span class="demo-block">Col 1/2</span></div>
+				<div class="col1-2"><span class="demo-block">Col 1/2</span></div>
+				<div class="col1-3"><span class="demo-block">Col 1/3</span></div>
+				<div class="col1-3"><span class="demo-block">Col 1/3</span></div>
+				<div class="col1-3"><span class="demo-block">Col 1/3</span></div>
+				<div class="col1-4"><span class="demo-block">Col 1/4</span></div>
+				<div class="col1-4"><span class="demo-block">Col 1/4</span></div>
+				<div class="col1-4"><span class="demo-block">Col 1/4</span></div>
+				<div class="col1-4"><span class="demo-block">Col 1/4</span></div>
+				<div class="col1-3"><span class="demo-block">Col 1/3</span></div>
+				<div class="col2-3"><span class="demo-block">Col 2/3</span></div>
+				<div class="col3-4"><span class="demo-block">Col 3/4</span></div>
+				<div class="col1-4"><span class="demo-block">Col 1/4</span></div>
 			</div>
-			<div class="col-wrap-lg clearfix">
-				<div class="demo-block col1-2-lg"></div>
-				<div class="demo-block col1-2-lg"></div>
+			<div class="def-col-wrap col-wrap-lg clearfix">
+				<div class="demo-block col1-2-lg">Col 1/2 (large)</div>
+				<div class="demo-block col1-2-lg">Col 1/2 (large)</div>
+				<div class="demo-block col1-3-lg">Col 1/3 (large)</div>
+				<div class="demo-block col1-3-lg">Col 1/3 (large)</div>
+				<div class="demo-block col1-3-lg">Col 1/3 (large)</div>
 			</div>
 		</div>
 	</main>
