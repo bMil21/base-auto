@@ -19,9 +19,15 @@
 
 /* Columns */
 .col-wrap{clear: both; margin:0 -1%;}
+.col3-4{float: left; width:73%; margin:0 1% 20px 1%;}
+.col2-3{float: left; width:64.6%; margin:0 1% 20px 1%;}
 .col1-2{float: left; width:48%; margin:0 1% 20px 1%;}
 .col1-3{float: left; width:31.3%; margin:0 1% 20px 1%;}
 .col1-4{float: left; width:23%; margin:0 1% 20px 1%;}
+
+.col-wrap-lg{clear: both; margin:0 -2%;}
+.col1-2-lg{float: left; width:46%; margin:0 2% 20px 2%;}
+.col1-3-lg{float: left; width:29.3%; margin:0 2% 20px 2%;}
 
 /* Events Module */
 .event-item{position:relative; margin:0; padding:20px 0 20px 10%; border-bottom:1px solid #ccc;}
