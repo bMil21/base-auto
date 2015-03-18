@@ -21,9 +21,13 @@ module.exports = function(grunt) {
 			options: {
 				separator: '\n\n;'
 			},
-			dist: {
-				src: ['js/libs/jquery.js', 'js/plugins/*.js'],
+			body: {
+				src: ['js/jquery.js', 'js/plugins/*.js'],
 				dest: 'js/scripts.js'
+			},
+			head: {
+				src: ['js/head/*.js'],
+				dest: 'js/head.js'
 			}
 		}, 
 		// Uglify
@@ -51,7 +55,7 @@ module.exports = function(grunt) {
 				tasks: ['sass']
 			}, 
 			scripts: {
-				files: ['js/plugins/*.js'], 
+				files: ['js/plugins/*.js, js/head/*.js'], 
 				tasks: 'concurrent'
 			}
 		}

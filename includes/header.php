@@ -23,7 +23,7 @@
 	<link href="images/apple-touch-icon-60x60.png" rel="apple-touch-icon-precomposed" size="60x60" />
 	
 	<link rel="stylesheet" href="style.css">
-	<script src="js/libs/modernizr.js"></script>
+	<script src="js/head.js"></script>
 	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
 </head>
 <body class="<?php print implode(" ", $body_class); ?>">
