@@ -12,7 +12,7 @@ $body_class = array(
 	"site_section" => "sct_home",
 	"layout" => ""
 );
-?>	
+?>
 <? include("includes/header.php"); ?>
 	<section id="hero">
 		<div class="wrap clearfix">
