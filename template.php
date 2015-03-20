@@ -42,6 +42,13 @@ $body_class = array(
 
 			<br><br>
 
+			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Icons</span></h2>
+			<ul class="demo-icons">
+				<li><span class="icon icon-twitter"></span> <span class="txt">twitter</span></li>
+			</ul>
+
+			<br><br><br>
+
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Form Fields</span></h2>
 			<form id="demo_form" class="col-wrap" action="#" method="post">
 				<ul>
