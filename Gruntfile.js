@@ -55,7 +55,7 @@ module.exports = function(grunt) {
 				tasks: ['sass']
 			}, 
 			scripts: {
-				files: ['js/plugins/*.js, js/head/*.js'], 
+				files: ['js/plugins/*.js', 'js/head/*.js'], 
 				tasks: 'concurrent'
 			}
 		}
