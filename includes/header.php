@@ -2,14 +2,10 @@
 // Header
 ?>
 <!DOCTYPE html>
-<!--[if IE 6 ]><html class="no-js ie ie6 lt-ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
-<!--[if IE 7 ]><html class="no-js ie ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8 lt-ie9 lt-ie10"><![endif]-->
-<!--[if IE 9 ]><html class="no-js ie ie9 lt-ie10"><![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js">
 <head>
-	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8">
 	<title><?php echo empty($page_meta["title"]) ? "INSERT_TITLE" : $page_meta["title"] . " | INSERT_TITLE" ?></title>
 	<meta name="keywords" content="<?php echo isset($page_meta["keywords"]) ? $page_meta["keywords"] : "" ?>">
 	<meta name="description" content="<?php echo isset($page_meta["description"]) ? $page_meta["description"] : "" ?>">
@@ -26,7 +22,11 @@
 	<script src="js/head.js"></script>
 	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
 </head>
-<body class="<?php print implode(" ", $body_class); ?>">
+<!--[if IE 6 ]><body class="ie ie6 lt-ie7 lt-ie8 lt-ie9 lt-ie10 <?php print implode(" ", $body_class); ?>"><![endif]-->
+<!--[if IE 7 ]><body class="ie ie7 lt-ie8 lt-ie9 lt-ie10 <?php print implode(" ", $body_class); ?>"><![endif]-->
+<!--[if IE 8 ]><body class="ie ie8 lt-ie9 lt-ie10 <?php print implode(" ", $body_class); ?>"><![endif]-->
+<!--[if IE 9 ]><body class="ie ie9 lt-ie10 <?php print implode(" ", $body_class); ?>"><![endif]-->
+<!--[if gt IE 9]><!--> <body class="<?php print implode(" ", $body_class); ?>"> <!--<![endif]-->
 	<!--[if lte IE 7]>
 		<p class="chromeframe center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
