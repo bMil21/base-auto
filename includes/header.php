@@ -19,7 +19,7 @@
 	<link href="images/apple-touch-icon-60x60.png" rel="apple-touch-icon-precomposed" size="60x60" />
 	
 	<link rel="stylesheet" href="style.css">
-	<script src="js/head.js"></script>
+	<script src="js/head.js" async></script>
 	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
 </head>
 <!--[if IE 6 ]><body class="ie ie6 lt-ie7 lt-ie8 lt-ie9 lt-ie10 <?php print implode(" ", $body_class); ?>"><![endif]-->
