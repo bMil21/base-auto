@@ -10,6 +10,7 @@
 					<li class="<?php if ($body_class['site_section'] == 'page3') print ' current';?>"><a href="page3.php" title="Page3">Page3</a></li>
 				</ul>
 			</nav>
+			<p class="ayc-tag">&copy; <?php echo date('Y'); ?> companyName. All Rights Reserved. <a href="http://www.aycmedia.com/" target="_blank">Website Design</a> &amp; <a href="http://www.aycmedia.com/" target="_blank">Web Development</a> by <a href="http://www.aycmedia.com/" target="_blank">AYC Media</a></p>
 		</div>
 	</footer>
 	<!-- Load Scripts -->
