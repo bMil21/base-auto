@@ -19,38 +19,33 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 ::selection{background:#b3d4fc;text-shadow:none;}
 
 
-/*--- Forms ---*/
-
-fieldset{border:0;margin:0;padding:0;} 
-label{display:block;margin:0 0 7px 0; @include font1-bold(); /*box*/-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-select{display:block; width:100%; height:40px; padding:8px; margin:0 0 10px 0; font-size:13px; background:#A5A6A1; border:none;}
-input, textarea{display:block; width:100%; height:40px; padding:10px 15px; margin:0 0 10px; color:#000; font-size:13px; @include font1(); background:#A5A6A1; border:none; -webkit-appearance:none; border-radius:0;}
+/*------- Forms -------*/
+fieldset{border:0; margin:0; padding:0;} 
+label{display:block; margin:0 0 8px 0; font-weight:bold;}
+select, input, textarea{display:block; width:100%; height:55px; padding:10px 15px; margin:0 0 10px; color:#555; font-size:13px; @include font1(); background:#e3e3e3; border:1px solid #d3d3d3; border-radius:4px; /* box */-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input, textarea{-webkit-appearance:none;}
+input:focus, textarea:focus{background:#ddd;}
 textarea{height:150px;}
-input:focus, textarea:focus{background:#c4c4c4;}
-.submit{display: inline-block; width:auto; height: auto; padding:10px; font-weight:normal; @include font1-bold(); color:#fff; background-color:#000; border:none; border-radius:5px; cursor: pointer;}
-.submit:hover{background:#333;}
-.radio{display:inline-block; margin:0 0 4px 0; padding:0 0 0 20px; cursor:pointer;}
-	.radio input{display:inline-block; width:auto; height:auto; margin:0 5px 0 -20px; padding:0; background:none; cursor:pointer; border:none; -webkit-appearance:radio;}
-.chbx{display:block; margin:0 0 4px 0; padding:0 0 0 20px; cursor:pointer; @include font1();}
-	.chbx input{display:inline-block; width:auto; height:auto; margin:0 5px 0 -20px; padding:0; background:none; cursor:pointer; vertical-align:baseline; border:none; -webkit-appearance:checkbox;}
-.form_bday{overflow:hidden;}
-	.form_bday select{display:block;float:left;margin-right:2%;}
-	.form_bday input{display:block;float:left;}
-	.form_month{width:40%;}
-	.form_day{width:30%;}
-	.form_year{width:26%;text-align:center;}
-.vcode-area{position:relative;padding-left:120px;}
-	.vcode-img{display:block;width:auto;position:absolute;left:0;top:0;}
-	.vcode{width:100%;height:50px;font-size:30px;text-align:center;}
+.submit{display: inline-block; width:auto; height:55px; padding:14px 20px 12px 20px; margin:0 0 40px 0; font-weight:bold; font-size:12px; text-transform:uppercase; color:#fff; background:$red-orange; border:none; border-radius:5px; cursor:pointer;}
+.submit:hover{color:#fff; background:$green;}
+.chbx, .radio{display:block; margin:0 0 4px 0; padding:0 0 0 20px; cursor:pointer; font-weight:normal; @include font1();}
+	.chbx input, .radio input{display:inline-block; width:auto; height:auto; margin:0 5px 0 -20px; padding:0; background:none; cursor:pointer; vertical-align:baseline; border:none;}
+	.radio input{-webkit-appearance:radio;}
+	.chbx input{-webkit-appearance:checkbox;}
+	.inline-chbx .chbx, .inline-radio .radio{display:inline-block; margin:0 10px 4px 0;}
+/* Advanced */
+.vcode-area{position:relative; padding-left:120px;}
+	.vcode-img{display:block; width:auto; position:absolute; left:0; top:0;}
+	.vcode{width:100%; height:50px; font-size:30px; text-align:center;}
 .inline-fields li{margin-left:30%;}
 	.inline-fields .inline{margin-left:0;}
-form .inline{padding:0 !important; margin:0 0 25px 0;}
-	.inline label{display:inline-block; width:39%; padding:0 4%; text-align: right; margin-bottom:0; vertical-align:top;}
-	.inline input{display:inline-block; width:60%; margin-bottom:0; text-align: left; vertical-align: top;}
-	.inline .chbx-wrap, .inline .radio-wrap{width:60%; display:inline-block; padding:0;}
-		.inline .chbx, .inline .radio{width:auto; padding:0; margin:0 20px 12px 0; text-align: left; text-transform: none; font-size:13px;}
-			.inline .chbx input, .inline .radio input{width:auto; height:auto; margin:-2px 5px 0 0; vertical-align: middle;}
-		.inline .lbl-block .chbx, .inline .lbl-block .radio{display: block; margin:0 0 7px 0;}
+form .side-label{padding:0 !important; margin:0 0 25px 0;}
+	.side-label label{display:inline-block; width:39%; padding:0 4%; text-align: right; margin-bottom:0; vertical-align:top;}
+	.side-label input{display:inline-block; width:60%; margin-bottom:0; text-align: left; vertical-align: top;}
+	.side-label .chbx-wrap, .side-label .radio-wrap{width:60%; display:inline-block; padding:0;}
+		.side-label .chbx, .side-label .radio{width:auto; padding:0; margin:0 20px 12px 0; text-align: left; text-transform: none; font-size:13px;}
+			.side-label .chbx input, .side-label .radio input{width:auto; height:auto; margin:-2px 5px 0 0; vertical-align: middle;}
+		.side-label .lbl-block .chbx, .side-label .lbl-block .radio{display: block; margin:0 0 7px 0;}
 .inline-submit input{display:block;float:left;vertical-align:top;width:77%;margin:0 2% 0 0;}
 .inline-submit .submit{height:37px;width:20%;padding:0;margin:0;font-size:20px;border-radius:0;}
 .field-callout{padding:10px 0;background:#fff;border-top:1px solid #333;border-bottom:1px solid #333;}
@@ -63,11 +58,15 @@ form .inline{padding:0 !important; margin:0 0 25px 0;}
 .errmsg li{list-style:disc;text-align:left !important;margin:0 0 5px 25px !important;}
 
 /* Form Cols */
-form.col-wrap li{margin:0 1% 25px 1%; clear:both;}
-form.col-wrap .lbl-mini{margin:0 1%;}
+form.col-wrap li{margin:0 1% 10px 1%; clear:both;}
 	form.col-wrap .field-col{clear:none;}
 
 
+/*---  700-  ---*/
+@media screen and (max-width : 700px) {
+	/* Field Callout */
+	.field-callout, form.col-wrap .field-callout{margin:0 -20px;}
+}
 /*---  550-  ---*/
 @media screen and (max-width : 550px) {
 	/* Form Cols */
