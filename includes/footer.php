@@ -1,6 +1,7 @@
 <?php 
 // Footer
 ?>
+	<!-- Footer -->
 	<footer class="footer">
 		<div class="wrap clearfix">
 			<nav id="nav-footer">
