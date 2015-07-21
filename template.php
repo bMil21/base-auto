@@ -50,7 +50,7 @@ $body_class = array(
 			<br><br><br>
 
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Form Fields</span></h2>
-			<form id="demo_form" class="col-wrap" action="#" method="post">
+			<form id="demo_form" class="col-wrap gutter1" action="#" method="post">
 				<ul>
 					<li class="lbl-hint lbl-mini">
 						<label for="form_ex1" class="">Example</label>
@@ -92,28 +92,28 @@ $body_class = array(
 					<li>
 						<br>
 					</li>
-					<li class="col1-2 field-col">
+					<li class="col1-4 field-col">
 						<label for="">Radio</label>
 						<div class="chbx-wrap">
 							<label class="chbx" for="form_yes2"><input type="checkbox" id="form_yes2" name="form_yn2"> Yes</label>
 							<label class="chbx" for="form_no2"><input type="checkbox" id="form_no2" name="form_yn2"> No</label>
 						</div>
 					</li>
-					<li class="col1-2 field-col">
+					<li class="col1-4 field-col">
 						<label for="">Checkboxes</label>
 						<div class="chbx-wrap">
 							<label class="chbx" for="form_chbx3"><input type="checkbox" id="form_chbx3" name="form_chbx3"> Tennis</label>
 							<label class="chbx" for="form_chbx4"><input type="checkbox" id="form_chbx4" name="form_chbx4"> Golf</label>
 						</div>
 					</li>
-					<li class="inline">
+					<li class="inline-radio col1-4 field-col">
 						<label for="">Radio</label>
 						<div class="radio-wrap lbl-block">
 							<label class="radio" for="yes"><input type="radio" id="form_yes" name="form_yn"> Yes</label>
 							<label class="radio" for="form_no"><input type="radio" id="form_no" name="form_yn"> No</label>
 						</div>
 					</li>
-					<li class="inline">
+					<li class="inline-chbx col1-4 field-col">
 						<label for="form_">Checkboxes</label>
 						<div class="chbx-wrap lbl-block">
 							<label class="chbx" for="form_chbx1"><input type="checkbox" id="form_chbx1" name="form_chbx1"> Tennis</label>
@@ -138,7 +138,7 @@ $body_class = array(
 			<br><br>
 
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Columns</span></h2>
-			<div class="col-wrap clearfix">
+			<div class="col-wrap gutter1 clearfix">
 				<div class="col1-2"><span class="demo-block">Col 1/2</span></div>
 				<div class="col1-2"><span class="demo-block">Col 1/2</span></div>
 				<div class="col1-3"><span class="demo-block">Col 1/3</span></div>
@@ -153,12 +153,12 @@ $body_class = array(
 				<div class="col3-4"><span class="demo-block">Col 3/4</span></div>
 				<div class="col1-4"><span class="demo-block">Col 1/4</span></div>
 			</div>
-			<div class="def-col-wrap col-wrap-lg clearfix">
-				<div class="demo-block col1-2-lg">Col 1/2 (large)</div>
-				<div class="demo-block col1-2-lg">Col 1/2 (large)</div>
-				<div class="demo-block col1-3-lg">Col 1/3 (large)</div>
-				<div class="demo-block col1-3-lg">Col 1/3 (large)</div>
-				<div class="demo-block col1-3-lg">Col 1/3 (large)</div>
+			<div class="def-col-wrap gutter4 clearfix">
+				<div class="demo-block col1-2">Col 1/2 (g4)</div>
+				<div class="demo-block col1-2">Col 1/2 (g4)</div>
+				<div class="demo-block col1-3">Col 1/3 (g4)</div>
+				<div class="demo-block col1-3">Col 1/3 (g4)</div>
+				<div class="demo-block col1-3">Col 1/3 (g4)</div>
 			</div>
 		</div>
 	</main>
