@@ -1,6 +1,9 @@
 
 /*!--- IE ---*/
 
+/* IE 9- Responsive SVG images */
+.lt-ie10 img[src*=".svg"]{width:100%; height:100%;}
+
 /* IE 9 Remove Chbx/Radio bg, pad */
 .lt-ie10 .radio input, .lt-ie10 .chbx input{display:inline-block; width:auto; background:none; padding:0;}
 
