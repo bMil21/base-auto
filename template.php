@@ -28,6 +28,10 @@ $body_class = array(
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Buttons</span></h2>
 			<div class="template-btns">
 				<a class="btn" href="#" title="Button">Button</a>
+				<p class="inline-submit">
+					<input type="text" placeholder="Enter Address">
+					<button type="submit" class="submit" id="inline_submit" name="inline_submit">GO</button>
+				</p>
 			</div>
 
 			<br><br><br>
