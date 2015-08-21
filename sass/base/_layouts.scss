@@ -10,6 +10,7 @@
 .entry-content img{margin:0 15px 5px 0; max-width:100%; height:auto;}
 
 #content-main{display: block;}
+.content-block{display: block; padding:40px 0;}
 
 /* Page Layouts */
 .content_sidebar .content-col{float:left;width:63%;}
@@ -18,12 +19,18 @@
 .sidebar_content .sidebar{float:left;width:36%;}
 
 /* Columns */
-.col-wrap{clear: both; margin:0 -1%;}
-	.col3-4{float: left; width:73%; margin:0 1% 20px 1%;}
-	.col2-3{float: left; width:64.6%; margin:0 1% 20px 1%;}
-	.col1-2{float: left; width:48%; margin:0 1% 20px 1%;}
-	.col1-3{float: left; width:31.3%; margin:0 1% 20px 1%;}
-	.col1-4{float: left; width:23%; margin:0 1% 20px 1%;}
+.col-wrap{clear: both; margin:0;}
+	.col3-4{float: left; width:75%; margin:0 0 20px 0;}
+	.col2-3{float: left; width:66.6%; margin:0 0 20px 0;}
+	.col1-2{float: left; width:50%; margin:0 0 20px 0;}
+	.col1-3{float: left; width:33.3%; margin:0 0 20px 0;}
+	.col1-4{float: left; width:25%; margin:0 0 20px 0;}
+.gutter1{clear: both; margin:0 -1%;}
+	.gutter1 .col3-4{float: left; width:73%; margin:0 1% 20px 1%;}
+	.gutter1 .col2-3{float: left; width:64.6%; margin:0 1% 20px 1%;}
+	.gutter1 .col1-2{float: left; width:48%; margin:0 1% 20px 1%;}
+	.gutter1 .col1-3{float: left; width:31.3%; margin:0 1% 20px 1%;}
+	.gutter1 .col1-4{float: left; width:23%; margin:0 1% 20px 1%;}
 .gutter2{clear: both; margin:0 -2%;}
 	.gutter2 .col1-2{width:46%; margin:0 2% 20px 2%;}
 	.gutter2 .col1-3{width:29.3%; margin:0 2% 20px 2%;}
@@ -37,11 +44,15 @@
 	.gutter4 .col1-3{width:25.3%; margin:0 4% 20px 4%;}
 	.gutter4 .col1-4{width:17%; margin:0 4% 20px 4%;}
 
-.half{display: block; float: left; width:50%;}
-.third{display: block; float: left; width:33.3%;}
-.fourth{display: block; float: left; width:25%;}
+.dib-col{}
+	.dib-col .col3-4{display:inline-block; float: none; width:74%; margin:0 0 20px 0;}
+	.dib-col .col2-3{display:inline-block; float: none; width:65.6%; margin:0 0 20px 0;}
+	.dib-col .col1-2{display:inline-block; float: none; width:49%; margin:0 0 20px 0;}
+	.dib-col .col1-3{display:inline-block; float: none; width:32.3%; margin:0 0 20px 0;}
+	.dib-col .col1-4{display:inline-block; float: none; width:24%; margin:0 0 20px 0;}
 
-.floatr{float: right;}
+.col-wrap .floatr{float: right;}
+
 
 /* Events Module */
 .event-item{position:relative; margin:0; padding:20px 0 20px 10%; border-bottom:1px solid #ccc;}
@@ -60,6 +71,6 @@
 /*---  800-  ---*/
 @media screen and (max-width : 800px) {
 	/* Columns */
-	.def-col2-wrap{margin:0;}
-		.def-col2-wrap .col1-2{float: none; width:auto; margin:0 0 20px 0;}
+	.def-col-wrap{margin:0;}
+		.def-col-wrap .col{float: none; width:auto; margin:0 0 20px 0;}
 }
