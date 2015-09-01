@@ -2,16 +2,16 @@
 /*--- KEYFRAME ANIMATIONS ---*/
 
 @mixin mykeyframes($keyname) {
-	@-webkit-keyframes $keyname {
+	@-webkit-keyframes #{$keyname} {
 		@content; 
 	}
-	@-moz-keyframes $keyname {
+	@-moz-keyframes #{$keyname} {
 		@content;
 	}
-	@-ms-keyframes $keyname {
+	@-ms-keyframes #{$keyname} {
 		@content;
 	}
-	@keyframes $keyname {
+	@keyframes #{$keyname} {
 		@content;
 	} 
 }
