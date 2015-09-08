@@ -11,6 +11,7 @@ p{line-height:20px;}
 li{list-style:none;}
 a{color:#09F;text-decoration:none;}
 a:hover{color:#669;}
+strong{@include font1-bold();}
 big{font-size:120%;}
 small{font-size:80%;}
 img{vertical-align:middle;border:none;}
