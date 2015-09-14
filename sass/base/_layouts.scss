@@ -12,13 +12,22 @@
 #content-main{display: block;}
 .content-block{display: block; padding:40px 0;}
 
-/* Page Layouts */
+/*---  800-  ---*/
+@media screen and (max-width : 800px) {
+	.wrap{padding:0 20px;}
+}
+
+/*---------------------------------------
+	Page Layouts
+---------------------------------------*/
 .content_sidebar .content-col{float:left;width:63%;}
 .content_sidebar .sidebar{float:right;width:36%;}
 .sidebar_content .content-col{float:right;width:63%;}
 .sidebar_content .sidebar{float:left;width:36%;}
 
-/* Columns */
+/*---------------------------------------
+	Columns
+---------------------------------------*/
 .col-wrap{clear: both; margin:0;}
 	.col3-4{float: left; width:75%; margin:0 0 20px 0;}
 	.col2-3{float: left; width:66.6%; margin:0 0 20px 0;}
@@ -53,8 +62,16 @@
 
 .col-wrap .floatr{float: right;}
 
+/*---  800-  ---*/
+@media screen and (max-width : 800px) {
+	.def-col-wrap{margin:0;}
+		.def-col-wrap .col{float: none; width:auto; margin:0 0 20px 0;}
+}
 
-/* Events Module */
+
+/*---------------------------------------
+	Events Module
+---------------------------------------*/
 .event-item{position:relative; margin:0; padding:20px 0 20px 10%; border-bottom:1px solid #ccc;}
 	.event-side{display:block; float: left; position: relative; z-index:1; width:100px;}
 		.event-thumb{display:inline-block;margin:0 0 15px 0;border:8px solid #898989;}
@@ -67,10 +84,3 @@
 	.event-item.no-img .event-side{display: none;}
 	.event-item.no-img .event-main{float: none; margin-left:0; padding:0;}
 
-
-/*---  800-  ---*/
-@media screen and (max-width : 800px) {
-	/* Columns */
-	.def-col-wrap{margin:0;}
-		.def-col-wrap .col{float: none; width:auto; margin:0 0 20px 0;}
-}
