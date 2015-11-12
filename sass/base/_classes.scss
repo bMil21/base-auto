@@ -35,9 +35,12 @@
 .center{text-align: center;}
 .upper{text-transform: uppercase;}
 .short-line{display:block;width:80px;height:1px;background:#000;margin:15px auto}
-.btm-margin-sm{margin-bottom:10px;}
 .btm-margin{margin-bottom:20px;}
+.btm-margin-sm{margin-bottom:10px;}
 .btm-margin-lg{margin-bottom:40px;}
+.vert-pad{padding-top:40px; padding-bottom:40px;}
+.vert-pad-sm{padding-top:20px; padding-bottom:20px;}
+.vert-pad-lg{padding-top:60px; padding-bottom:60px;}
 .posr{position:relative;}
 .tar{text-align: right;}
 .tbl{display: table; width:100%;}
