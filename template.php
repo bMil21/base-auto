@@ -17,6 +17,8 @@ $body_class = array(
 	<!-- Main -->
 	<main id="content-main" class="clearfix" role="main">
 		<div class="wrap clearfix">
+
+			<!-- Headers -->
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Headers</span></h2>
 			<h1 class="hdr1 btm-margin">Header 1</h1>
 			<h2 class="hdr2 btm-margin">Header 2</h2>
@@ -25,6 +27,7 @@ $body_class = array(
 
 			<br><br>
 
+			<!-- Buttons -->
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Buttons</span></h2>
 			<div class="template-btns">
 				<a class="btn" href="#" title="Button">Button</a>
@@ -36,6 +39,7 @@ $body_class = array(
 
 			<br><br><br>
 
+			<!-- User Entered Content -->
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Entry Content</span></h2>
 			<div class="entry-content">
 				<h2>Header 2</h2>
@@ -46,6 +50,7 @@ $body_class = array(
 
 			<br><br>
 
+			<!-- Icons -->
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Icons</span></h2>
 			<ul class="demo-icons">
 				<li><span class="icon icon-twitter"></span> <span class="txt">twitter</span></li>
@@ -53,6 +58,7 @@ $body_class = array(
 
 			<br><br><br>
 
+			<!-- Form Fields -->
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Form Fields</span></h2>
 			<form id="demo_form" class="col-wrap gutter1" action="#" method="post">
 				<ul>
@@ -141,6 +147,7 @@ $body_class = array(
 
 			<br><br>
 
+			<!-- Columns -->
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Columns</span></h2>
 			<div class="col-wrap gutter1 clearfix">
 				<div class="col1-2"><span class="demo-block">Col 1/2</span></div>
