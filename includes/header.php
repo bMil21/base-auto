@@ -28,7 +28,7 @@
 <!--[if IE 9 ]><body class="ie ie9 lt-ie10 <?php print implode(" ", $body_class); ?>"><![endif]-->
 <!--[if gt IE 9]><!--> <body class="<?php print implode(" ", $body_class); ?>"> <!--<![endif]-->
 	<!--[if lte IE 7]>
-		<p class="chromeframe center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<p class="chromeframe center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 	<!-- Header -->
 	<header class="header">
