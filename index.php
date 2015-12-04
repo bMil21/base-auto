@@ -12,12 +12,14 @@ $body_class = array(
 	"site_section" => "sct_home",
 	"layout" => ""
 );
+// Hero / Hero Slider
+$hero_image = 'street';
+$hero_title = 'Home';
+$hero_slider_images = array("ph1", "ph2");
 ?>
 <? include("includes/header.php"); ?>
-	<section id="hero">
-		<div class="wrap clearfix">
-		</div>
-	</section>
+	<!-- Hero -->
+	<? include("includes/hero.php"); ?>
 	<!-- Main -->
 	<main id="content-main" class="clearfix" role="main">
 		<div class="wrap clearfix">
