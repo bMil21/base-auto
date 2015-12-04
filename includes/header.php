@@ -9,7 +9,7 @@
 	<title><?php echo empty($page_meta["title"]) ? "INSERT_TITLE" : $page_meta["title"] . " | INSERT_TITLE" ?></title>
 	<meta name="keywords" content="<?php echo isset($page_meta["keywords"]) ? $page_meta["keywords"] : "" ?>">
 	<meta name="description" content="<?php echo isset($page_meta["description"]) ? $page_meta["description"] : "" ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="author" content="http://www.aycmedia.com" />
 	
 	<link rel="icon" href="images/favicon.png" />
