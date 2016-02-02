@@ -26,7 +26,7 @@
 /*--- Animations ---*/
 
 /* 
-@include mykeyframes(fadein) {
+@include mykeyframes(INSERT_ANIM_NAME) {
 	0% {opacity: 0; right:-50px;}
 	100% {opacity: 1; right: 0;}
 }
@@ -36,5 +36,5 @@
 /*------------------------------------------------------------------
 	Use Animation
 	- add @include to element
-	- // .INSERT {@include myanim(INSERT-ANIM-NAME 1.5s ease);}
+	- // .INSERT {@include myanim(INSERT_ANIM_NAME 1.5s ease);}
 ------------------------------------------------------------------*/
