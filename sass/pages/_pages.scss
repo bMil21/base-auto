@@ -19,12 +19,11 @@
 
 
 /*-----------------------------------
-	Contact 
+	Sitemap 
 -----------------------------------*/
-.sct_contact{}
-
-/*---  960-  ---*/
-@media screen and (max-width : 960px) {
-	
-}
+.sitemap-nav{display: block; max-width:600px; margin:auto;}
+	.sitemap-nav li{margin:0 0 5px 0;}
+		.sitemap-nav li a{display: inline-block; padding:5px 15px; background:#eee;}
+		.sitemap-nav li a:hover{background:#f7f7f7;}
+		.sitemap-nav ul ul{padding:0 0 0 10px; margin:10px 0 10px 20px; border-left:1px solid #eee;}
 
