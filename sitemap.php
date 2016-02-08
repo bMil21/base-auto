@@ -12,11 +12,16 @@ $body_class = array(
 	"site_section" => "sct_sitemap",
 	"layout" => ""
 );
+// Hero / Hero Slider
+// $hero_image = 'street';
+// $hero_title = 'Home';
+// $hero_slider_images = array("ph1", "ph2");
 ?>
 <? include("includes/header.php"); ?>
-<? include("includes/hero.php"); ?>
+	<!-- Hero -->
+	<? include("includes/hero.php"); ?>
 	<!-- Main -->
-	<main class="clearfix" role="main">
+	<main class="content-block clearfix" role="main">
 		<div class="wrap clearfix">
 			<h1 class="hdr1">Sitemap</h1>
 			<hr>
