@@ -22,3 +22,13 @@ $color2: #eee;
 	font-weight: normal;
 	font-family:"customFont", Georgia, Times, serif;
 }
+
+
+/*--- Mixins ---*/
+
+@mixin placeholder {
+	::-webkit-input-placeholder{ @content }
+	:-moz-placeholder{ @content }
+	::-moz-placeholder{ @content }
+	:-ms-input-placeholder{ @content }  
+}

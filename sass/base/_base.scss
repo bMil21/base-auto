@@ -52,7 +52,7 @@ form .side-label{padding:0 !important; margin:0 0 25px 0;}
 .inline-submit .submit{height:55px;width:20%;padding:0;margin:0;font-size:20px;border-radius:0;}
 .field-callout{padding:10px 0;background:#fff;border-top:1px solid #333;border-bottom:1px solid #333;}
 .req{color:rgb(224, 53, 53);}
-::-webkit-input-placeholder{color:#555;} ::-moz-placeholder{color:#555;} :-ms-input-placeholder{color:#555;}
+@include placeholder { color:#555; opacity:1; }
 
 .errmsg{background-color:#FFF5F5;border:1px dotted #CC0000;margin:10px 0 10px 0;}
 .errmsg div{padding:10px 0 10px 0;}
