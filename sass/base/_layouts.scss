@@ -20,52 +20,83 @@
 /*---------------------------------------
 	Page Layouts
 ---------------------------------------*/
-.content_sidebar .content-col{float:left;width:63%;}
-.content_sidebar .sidebar{float:right;width:36%;}
-.sidebar_content .content-col{float:right;width:63%;}
-.sidebar_content .sidebar{float:left;width:36%;}
+.content_sidebar .content-col{float: left; width:63%;}
+.content_sidebar .sidebar{float: right; width:36%;}
+.sidebar_content .content-col{float: right; width:63%;}
+.sidebar_content .sidebar{float: left; width:36%;}
+
 
 /*---------------------------------------
-	Columns
+	Columns 
 ---------------------------------------*/
-.col-wrap{clear: both; margin:0;}
-	.col3-4{float: left; width:75%; margin:0 0 20px 0;}
-	.col2-3{float: left; width:66.6%; margin:0 0 20px 0;}
-	.col1-2{float: left; width:50%; margin:0 0 20px 0;}
-	.col1-3{float: left; width:33.3%; margin:0 0 20px 0;}
-	.col1-4{float: left; width:25%; margin:0 0 20px 0;}
-.gutter1{clear: both; margin:0 -1%;}
-	.gutter1 .col3-4{float: left; width:73%; margin:0 1% 20px 1%;}
-	.gutter1 .col2-3{float: left; width:64.6%; margin:0 1% 20px 1%;}
-	.gutter1 .col1-2{float: left; width:48%; margin:0 1% 20px 1%;}
-	.gutter1 .col1-3{float: left; width:31.3%; margin:0 1% 20px 1%;}
-	.gutter1 .col1-4{float: left; width:23%; margin:0 1% 20px 1%;}
-.gutter2{clear: both; margin:0 -2%;}
-	.gutter2 .col1-2{width:46%; margin:0 2% 20px 2%;}
-	.gutter2 .col1-3{width:29.3%; margin:0 2% 20px 2%;}
-	.gutter2 .col1-4{width:21%; margin:0 2% 20px 2%;}
-.gutter3{clear: both; margin:0 -3%;}
-	.gutter3 .col1-2{width:44%; margin:0 3% 20px 3%;}
-	.gutter3 .col1-3{width:27.3%; margin:0 3% 20px 3%;}
-	.gutter3 .col1-4{width:19%; margin:0 3% 20px 3%;}
-.gutter4{clear: both; margin:0 -4%;}
-	.gutter4 .col1-2{width:42%; margin:0 4% 20px 4%;}
-	.gutter4 .col1-3{width:25.3%; margin:0 4% 20px 4%;}
-	.gutter4 .col1-4{width:17%; margin:0 4% 20px 4%;}
 
-.dib-col{}
-	.dib-col .col3-4{display:inline-block; float: none; width:74%; margin:0 0 20px 0;}
-	.dib-col .col2-3{display:inline-block; float: none; width:65.6%; margin:0 0 20px 0;}
-	.dib-col .col1-2{display:inline-block; float: none; width:49%; margin:0 0 20px 0;}
-	.dib-col .col1-3{display:inline-block; float: none; width:32.3%; margin:0 0 20px 0;}
-	.dib-col .col1-4{display:inline-block; float: none; width:24%; margin:0 0 20px 0;}
+/*------- Margin -------*/
+
+.col-wrap{clear:both;}
+	.col3-4{float: left; width:75%;}
+	.col2-3{float: left; width:66.6%;}
+	.col1-2{float: left; width:50%;}
+	.col1-3{float: left; width:33.3%;}
+	.col1-4{float: left; width:25%;}
+.gutter1{clear:both; margin-left:-1%; margin-right:-1%;}
+	.gutter1 .col3-4{float: left; width:73%; margin-left:1%; margin-right:1%;}
+	.gutter1 .col2-3{float: left; width:64.6%; margin-left:1%; margin-right:1%;}
+	.gutter1 .col1-2{float: left; width:48%; margin-left:1%; margin-right:1%;}
+	.gutter1 .col1-3{float: left; width:31.3%; margin-left:1%; margin-right:1%;}
+	.gutter1 .col1-4{float: left; width:23%; margin-left:1%; margin-right:1%;}
+.gutter2{clear:both; margin-left:-2%; margin-right:-2%;}
+	.gutter2 .col1-2{width:46%; margin-left:2%; margin-right:2%;}
+	.gutter2 .col1-3{width:29.3%; margin-left:2%; margin-right:2%;}
+	.gutter2 .col1-4{width:21%; margin-left:2%; margin-right:2%;}
+.gutter3{clear:both; margin-left:-3%; margin-right:-3%;}
+	.gutter3 .col1-2{width:44%; margin-left:3%; margin-right:3%;}
+	.gutter3 .col1-3{width:27.3%; margin-left:3%; margin-right:3%;}
+	.gutter3 .col1-4{width:19%; margin-left:3%; margin-right:3%;}
+.gutter4{clear:both; margin-left:-4%; margin-right:-4%;}
+	.gutter4 .col1-2{width:42%; margin-left:4%; margin-right:4%;}
+	.gutter4 .col1-3{width:25.3%; margin-left:4%; margin-right:4%;}
+	.gutter4 .col1-4{width:17%; margin-left:4%; margin-right:4%;}
+
+.col-inline{}
+	.col-inline .col{display:inline-block; float:none;}
+	.col-inline .col3-4{display:inline-block; float: none; width:74%;}
+	.col-inline .col2-3{display:inline-block; float: none; width:65.6%;}
+	.col-inline .col1-2{display:inline-block; float: none; width:49%;}
+	.col-inline .col1-3{display:inline-block; float: none; width:32.3%;}
+	.col-inline .col1-4{display:inline-block; float: none; width:24%;}
 
 .col-wrap .floatr{float: right;}
 
-/*---  800-  ---*/
+/*------- Padding -------*/
+
+/* Percentage Gutters */
+.gutter-pad1{clear:both; margin-left:-1%; margin-right:1%;}
+	.gutter-pad1 .col {padding:0 1% 15px 1%;}
+.gutter-pad2{clear:both; margin-left:-2%; margin-right:2%;}
+	.gutter-pad2 .col {padding:0 2% 15px 2%;}
+.gutter-pad3{clear:both; margin-left:-3%; margin-right:3%;}
+	.gutter-pad3 .col {padding:0 3% 15px 3%;}
+.gutter-pad4{clear:both; margin-left:-4%; margin-right:4%;}
+	.gutter-pad4 .col {padding:0 4% 15px 4%;}
+.gutter-pad5{clear:both; margin-left:-5%; margin-right:5%;}
+	.gutter-pad4 .col {padding:0 5% 15px 5%;}
+
+/* Pixel Gutters */
+.gutter-pad5px{clear:both; margin-left:-5px; margin-right:-5px;}
+	.gutter-pad5px .col{padding:0 5px 15px 5px;}
+.gutter-pad10px{clear:both; margin-left:-10px; margin-right:-10px;}
+	.gutter-pad10px .col{padding:0 10px 15px 10px;}
+.gutter-pad20px{clear:both; margin-left:-20px; margin-right:-20px;}
+	.gutter-pad20px .col{padding:0 20px 15px 20px;}
+.gutter-pad30px{clear:both; margin-left:-30px; margin-right:-30px;}
+	.gutter-pad30px .col{padding:0 30px 15px 30px;}
+.gutter-pad40px{clear:both; margin-left:-40px; margin-right:-40px;}
+	.gutter-pad40px .col{padding:0 40px 15px 40px;}
+
+/* 800- */
 @media screen and (max-width : 800px) {
 	.def-col-wrap{margin:0;}
-		.def-col-wrap .col{float: none; width:auto; margin:0 0 20px 0;}
+		.def-col-wrap .col{float: none; width:auto; margin-left:0; margin-right:0;  padding-left:0; padding-right:0;}
 }
 
 
