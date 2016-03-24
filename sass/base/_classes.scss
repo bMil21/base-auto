@@ -34,6 +34,7 @@
 .vcenter2{position:relative; top:50%; @include transform(translateY(-50%));}
 .upper{text-transform: uppercase;}
 .lower{text-transform: lowercase;}
+.small-caps{font-variant:small-caps;}
 .short-line{display:block;width:80px;height:1px;background:#000;margin:15px auto}
 .btm-margin{margin-bottom:20px;}
 .btm-margin-sm{margin-bottom:10px;}
