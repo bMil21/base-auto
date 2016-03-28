@@ -55,6 +55,11 @@ $body_class = array(
 			<ul class="demo-icons">
 				<li><span class="icon icon-twitter"></span> <span class="txt">twitter</span></li>
 				<li><span class="icon icon-facebook"></span> <span class="txt">facebook</span></li>
+				<li><span class="icon icon-google_plus"></span> <span class="txt">google_plus</span></li>
+				<li><span class="icon icon-pinterest"></span> <span class="txt">pinterest</span></li>
+				<li><span class="icon icon-linkedin"></span> <span class="txt">linkedin</span></li>
+				<li><span class="icon icon-youtube"></span> <span class="txt">youtube</span></li>
+				<li><span class="icon icon-youtube_play"></span> <span class="txt">youtube_play</span></li>
 				<li><span class="icon icon-instagram_solid"></span> <span class="txt">instagram_solid</span></li>
 				<li><span class="icon icon-up_arrow"></span> <span class="txt">up_arrow</span></li>
 				<li><span class="icon icon-right_arrow"></span> <span class="txt">right_arrow</span></li>
