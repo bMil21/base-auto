@@ -54,6 +54,17 @@ $body_class = array(
 			<h2 class="line-header"><span class="midline"></span><span class="midtxt">Icons</span></h2>
 			<ul class="demo-icons">
 				<li><span class="icon icon-twitter"></span> <span class="txt">twitter</span></li>
+				<li><span class="icon icon-facebook"></span> <span class="txt">facebook</span></li>
+				<li><span class="icon icon-instagram_solid"></span> <span class="txt">instagram_solid</span></li>
+				<li><span class="icon icon-up_arrow"></span> <span class="txt">up_arrow</span></li>
+				<li><span class="icon icon-right_arrow"></span> <span class="txt">right_arrow</span></li>
+				<li><span class="icon icon-down_arrow"></span> <span class="txt">down_arrow</span></li>
+				<li><span class="icon icon-left_arrow"></span> <span class="txt">left_arrow</span></li>
+				<li><span class="icon icon-phone"></span> <span class="txt">phone</span></li>
+				<li><span class="icon icon-email_solid"></span> <span class="txt">email_solid</span></li>
+				<li><span class="icon icon-magnify"></span> <span class="txt">magnify</span></li>
+				<li><span class="icon icon-location"></span> <span class="txt">location</span></li>
+				<li><span class="icon icon-close"></span> <span class="txt">close</span></li>
 			</ul>
 
 			<br><br><br>
