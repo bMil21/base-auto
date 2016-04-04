@@ -1,4 +1,4 @@
-<?
+<?php
 // HOME Page
 
 // page vars
@@ -17,14 +17,14 @@ $hero_image = 'street';
 $hero_title = 'Home';
 $hero_slider_images = array("ph1", "ph2");
 ?>
-<? include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 	<!-- Hero -->
-	<? include("includes/hero.php"); ?>
+	<?php include("includes/hero.php"); ?>
 	<!-- Main -->
 	<main id="content-main" class="clearfix" role="main">
 		<div class="wrap clearfix">
 		</div>
 	</main>
-<? 
+<?php 
 include("includes/footer.php");
 ?>

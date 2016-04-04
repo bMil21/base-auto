@@ -1,4 +1,4 @@
-<?
+<?php
 // 404 Page
 
 // page vars
@@ -17,9 +17,9 @@ $body_class = array(
 // $hero_title = 'Home';
 // $hero_slider_images = array("ph1", "ph2");
 ?>
-<? include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 	<!-- Hero -->
-	<? include("includes/hero.php"); ?>
+	<?php include("includes/hero.php"); ?>
 	<!-- Main -->
 	<main class="content-block clearfix" role="main">
 		<div class="wrap-sm clearfix">
@@ -29,6 +29,6 @@ $body_class = array(
 			<br><br>
 		</div>
 	</main>
-<? 
+<?php 
 include("includes/footer.php");
 ?>

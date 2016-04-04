@@ -3,7 +3,7 @@
 	<ul class="reslider">
 		<?php foreach ($hero_slider_images as $num => $img) { ?>
 			<?php $num = $num + 1; // start at "1" now ?>
-		<li class="slide slide<? echo $num; ?>"></li>
+		<li class="slide slide<?php echo $num; ?>"></li>
 		<?php } ?>
 	</ul>
 </section>

@@ -1,4 +1,4 @@
-<?
+<?php
 // Template Page
 
 // page vars
@@ -13,7 +13,7 @@ $body_class = array(
 	"layout" => ""
 );
 ?>	
-<? include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 	<!-- Main -->
 	<main id="content-main" class="clearfix" role="main">
 		<div class="wrap clearfix">
@@ -189,6 +189,6 @@ $body_class = array(
 			</div>
 		</div>
 	</main>
-<? 
+<?php 
 include("includes/footer.php");
 ?>
